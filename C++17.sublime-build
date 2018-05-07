@@ -1,0 +1,41 @@
+// {
+// "shell_cmd": "clang++ -std=c++17 \"${file}\" -o \"${file_path}/${file_base_name}\"",
+// "file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$",
+// "working_dir": "${file_path}",
+// "selector": "source.c, source.c++,source.cpp",
+
+// "variants":
+// [
+//     {
+//         "name": "Run",
+//         "shell_cmd": "clang++ -std=c++17 \"${file}\" -o \"${file_path}/${file_base_name}\" && \"${file_path}/${file_base_name}\""
+//     }
+// ]
+
+// }
+
+{
+    "selector": "source.c++",
+    "file_regex": "^(.*?):([0-9]*):?([0-9]*):? (.*)",
+    "shell": true,
+    "cmd": ["clang++", "-std=c++17", "-g", "-Og", "-pipe", "-Wall", "$file_name", "-o", "$file_base_name.exe"],
+
+    "variants":
+    [
+	{
+            "name": "Build",
+            "shell": true,
+            "cmd": "clang++ -std=c++17 -g -Og -pipe -Wall $file_name -o $file_base_name.exe"
+        },
+	        {
+            "name": "Run",
+            "shell": true,
+            "cmd": "$file_base_name"
+        },
+        {
+            "name": "Build & Run",
+            "shell": true,
+            "cmd": "clang++ -std=c++17 -g -Og -pipe -Wall $file_name -o $file_base_name.exe & $file_base_name"
+        }
+    ]
+}

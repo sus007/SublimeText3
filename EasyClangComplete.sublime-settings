@@ -1,0 +1,10 @@
+{
+    "common_flags":[
+        "-IC:/msys64/mingw64/include",
+        "-IC:/msys64/mingw64/x86_64-w64-mingw32/include",
+        "-IC:/msys64/mingw64/lib/clang/$clang_version/include",
+        "-I$project_base_path/src"
+    ],
+    "cpp_flags": ["-std=c++17"],
+    "verbose": true,
+}

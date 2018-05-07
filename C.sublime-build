@@ -1,0 +1,25 @@
+{
+    "selector": "source.c",
+    "file_regex": "^(.*?):([0-9]*):?([0-9]*):? (.*)",
+    "shell": true,
+    "cmd": ["clang", "-g", "-Og", "-pipe", "-Wall", "$file_name", "-o", "$file_base_name.exe"],
+
+    "variants":
+    [
+	{
+            "name": "Build",
+            "shell": true,
+            "cmd": "clang -g -Og -pipe -Wall $file_name -o $file_base_name.exe"
+        },
+	        {
+            "name": "Run",
+            "shell": true,
+            "cmd": "$file_base_name"
+        },
+        {
+            "name": "Build & Run",
+            "shell": true,
+            "cmd": "clang -g -Og -pipe -Wall $file_name -o $file_base_name.exe & $file_base_name"
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+// SublimeLinter Settings - User
+{
+    "clang": {
+        "@disable": false,
+        "args": [],
+        "excludes": [],
+        "extra_flags": "-std=c++17",
+        "include_dirs": []
+    },
+    "gcc": {
+        "@disable": true,
+        "args": [],
+        "excludes": [],
+        "extra_flags": "-std=c++17",
+        "include_dirs": []
+    },
+}

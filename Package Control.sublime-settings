@@ -1,0 +1,33 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"Anaconda",
+		"Babel",
+		"Color Highlighter",
+		"CSS3",
+		"Djaneiro",
+		"EasyClangComplete",
+		"Emmet",
+		"ESLint",
+		"FileIcons",
+		"HTML-CSS-JS Prettify",
+		"JavaScript Enhancements",
+		"Layout",
+		"LiveReload",
+		"MarkdownEditing",
+		"MarkdownLivePreview",
+		"Package Control",
+		"SideBarEnhancements",
+		"SublimeLinter",
+		"SublimeLinter-clang",
+		"SublimeREPL",
+		"Terminal",
+		"Tron Color Scheme",
+		"TypeScript"
+	]
+}

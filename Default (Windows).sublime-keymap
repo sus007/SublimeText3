@@ -1,0 +1,10 @@
+[
+{
+	"keys": ["ctrl+shift+g"],
+	"command": "toggle_setting",
+	"args":
+	{
+	    "setting": "gutter"
+	}
+}
+]
