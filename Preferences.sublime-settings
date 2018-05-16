@@ -6,8 +6,13 @@
 	"caret_extra_top": 3,
 	"caret_extra_width": 2,
 	"caret_style": "phase",
-	"color_scheme": "Packages/Tron Color Scheme/Tron.tmTheme",
+	"color_scheme": "Packages/User/Color Highlighter/themes/TronLegacy.tmTheme",
 	"fade_fold_buttons": false,
+	"file_exclude_patterns":
+	[
+		".project",
+		".classpath"
+	],
 	"font_face": "Fira Code",
 	"font_size": 11,
 	"gutter": true,
@@ -19,6 +24,7 @@
 		"Anaconda",
 		"AppleScript",
 		"ASP",
+		"Babel",
 		"Batch File",
 		"C#",
 		"C++",
@@ -30,10 +36,13 @@
 		"Erlang",
 		"Git Formats",
 		"Go",
+		"Go Sublime",
+		"GoSublime",
 		"Graphviz",
 		"Groovy",
 		"Haskell",
-		"Java",
+		"JavaScript",
+		"JavaScript Enhancements",
 		"LaTeX",
 		"Lisp",
 		"Lua",
@@ -45,13 +54,13 @@
 		"Pascal",
 		"Perl",
 		"PHP",
+		"Python",
 		"R",
 		"Rails",
 		"Ruby",
 		"Rust",
 		"Scala",
 		"SQL",
-		"SublimeLinter",
 		"SublimeLinter-clang",
 		"TCL",
 		"TypeScript"
@@ -60,6 +69,11 @@
 	[
 		"draw_active"
 	],
+	"index_exclude_patterns":
+	[
+		"node_modules/*.*"
+	],
+	"index_files": false,
 	"margin": 0.5,
 	"match_brackets_angle": false,
 	"remember_full_screen": true,

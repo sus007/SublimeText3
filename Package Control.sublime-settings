@@ -3,6 +3,10 @@
 	"in_process_packages":
 	[
 	],
+	"install_prereleases":
+	[
+		"Javatar"
+	],
 	"installed_packages":
 	[
 		"AdvancedNewFile",
@@ -15,12 +19,16 @@
 		"Emmet",
 		"ESLint",
 		"FileIcons",
+		"GoSublime",
 		"HTML-CSS-JS Prettify",
+		"JavaIME",
 		"JavaScript Enhancements",
+		"Javatar",
 		"Layout",
 		"LiveReload",
 		"MarkdownEditing",
 		"MarkdownLivePreview",
+		"Nodejs",
 		"Package Control",
 		"SideBarEnhancements",
 		"SublimeLinter",

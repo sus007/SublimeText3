@@ -1,0 +1,23 @@
+{
+	"jdk_version":
+	{
+		"JDK2018-03-20":
+		{
+			"path": "C:\\Program Files\\Java\\jdk-10\\bin",
+			"version": "2018-03-20"
+		}
+	},
+	"message_id": 20,
+	"project_data":
+	{
+		"4":
+		{
+			"folders":
+			[
+				{
+					"path": "C:\\Users\\Sushant Chaudhary\\eclipse-workspace\\javaInDepthUdemy"
+				}
+			]
+		}
+	}
+}

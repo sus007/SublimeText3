@@ -1,0 +1,22 @@
+{
+	"9o.hist.F:\\Code\\go\\DerekBanas":
+	[
+		"go build",
+		"hello",
+		"./hello",
+		"./hello.exe",
+		"ls",
+		"./DerekBanas.exe",
+		"go build hello.go",
+		"go run hello.exe",
+		"go run hello"
+	],
+	"9o.hist.F:\\Code\\go\\Ex_Files_UaR_Go\\Exercise Files\\Ch01\\01_05":
+	[
+		"Sushant",
+		"go build"
+	],
+	"ann": "a18.04.30-1",
+	"install_version": "r18.04.30-1",
+	"version": "r18.04.30-1"
+}
